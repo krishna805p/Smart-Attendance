@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mysql-connector-python
+python-dotenv
+argon2-cffi
+numpy
+opencv-python-headless
+onnxruntime
+python-multipart
+cryptography>=42,<50

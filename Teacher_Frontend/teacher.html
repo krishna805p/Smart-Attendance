@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Attendance System — Faculty</title>
+
+<link rel="stylesheet" href="teacher.css" />
+
+<!-- React + ReactDOM (development builds, UMD) -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<!--
+  No Babel / JSX here on purpose: teacher.js is written with plain
+  React.createElement calls. This keeps it dependency-light and lets
+  it run identically whether opened via file:// or served through
+  VS Code Live Server.
+-->
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="../runtime-config.js"></script>
+<script src="teacher.js"></script>
+
+</body>
+</html>

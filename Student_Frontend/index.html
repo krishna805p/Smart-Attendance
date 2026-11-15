@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Attendance System</title>
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- React + ReactDOM (development builds, UMD) -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<!--
+  No Babel / JSX here on purpose: app.js is written with plain
+  React.createElement calls so this page loads instantly and
+  reliably via file:// in every browser (Babel's in-browser JSX
+  transform fetches external scripts with XHR, which some browsers
+  block for file:// pages).
+-->
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="../runtime-config.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

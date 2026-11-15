@@ -1,0 +1,6 @@
+# Local biometric templates are sensitive and must remain outside version control.
+data/student_embeddings.json
+data/.*.tmp
+data/evaluation*.json
+data/evaluation*.csv
+data/backups/

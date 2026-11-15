@@ -1,0 +1,6 @@
+numpy
+opencv-contrib-python
+onnxruntime
+mysql-connector-python
+python-dotenv
+cryptography>=42,<50

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Attendance — Sign in</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <main class="login-shell">
+    <section class="login-card" aria-labelledby="page-title">
+      <div class="brand-mark" aria-hidden="true">SA</div>
+      <p class="eyebrow">SMART ATTENDANCE</p>
+      <h1 id="page-title">Welcome back</h1>
+      <p class="subtitle">Choose your account type to continue.</p>
+
+      <div class="role-options" role="group" aria-label="Choose account type">
+        <button type="button" class="role-option active" data-role="student" aria-pressed="true">Student</button>
+        <button type="button" class="role-option" data-role="teacher" aria-pressed="false">Teacher</button>
+      </div>
+
+      <form id="login-form">
+        <label id="identity-label" for="identity">Roll number</label>
+        <input id="identity" name="identity" autocomplete="username" required />
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required />
+        <p id="login-error" class="error" role="alert" hidden></p>
+        <button id="submit-button" class="submit-button" type="submit">Sign in as Student</button>
+      </form>
+    </section>
+  </main>
+  <script src="runtime-config.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

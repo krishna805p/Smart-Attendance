@@ -1,0 +1,19 @@
+# Local configuration and TLS material must remain outside source control.
+Backend/.env
+Backend/*.pem
+/Backend/reset_demo_passwords.py
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sensitive certificates
+*.pem
+
+Backend/background_system/
