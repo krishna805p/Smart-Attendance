@@ -6,7 +6,8 @@
     window.location.hostname === "localhost" ||
     window.location.hostname === "127.0.0.1";
   const localApi = "http://127.0.0.1:8000";
-  // Set this public URL to the deployed AWS App Runner service before Vercel deployment.
+  // BACKEND DEPLOYMENT PENDING: replace this one public value after AWS App Runner
+  // provides the real service URL. Do not put credentials or secrets here.
   const productionApi = "https://YOUR-AWS-APP-RUNNER-DOMAIN";
 
   window.SMART_ATTENDANCE_CONFIG = Object.freeze({
